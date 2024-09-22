@@ -1,0 +1,503 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Regular.otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Italic.otf');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Black.otf');
+    font-weight: 900;
+    
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Semibold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Bold.otf');
+    font-weight: 700;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'SourceSansPro';
+    
+}
+
+body{
+   
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #C271FF;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #C271FF;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap:640px;
+    height: 29px;
+    margin: 16px;
+    text-align: center;
+    padding-top: 10px;
+    width: 1103px;
+    margin-left: 13%;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+   
+  }
+
+  ul li{
+    
+    display: inline;
+    
+  }
+  ul li a{
+ 
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700 ;
+   
+    
+  
+  }
+
+.home span{
+   
+    display: inline;
+   justify-content: center;
+   font-size: 16px;
+   padding: 40px;
+   font-weight: 700;
+   
+ 
+}
+
+.logo{
+float: left;
+
+}
+
+main{
+    background: url("images/Object.png");
+    background-size:cover;
+    width: 100%;
+    height: 1093px;
+   background-position: center;
+    /*background-attachment: fixed;*/
+      
+}
+
+.home{
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+    color:white;
+    
+}
+
+h1{
+    font-size: 120px;
+    color:white;
+    padding-top: 5%;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    
+}
+
+  
+h2{
+
+    font-size: 32px;
+    color:white;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 150px;
+    font-weight: 300;
+    
+   
+}
+h2 b{
+    color: #C271FF;
+    font-weight: 700;
+}
+
+
+ .pros{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    margin-top: 87px ;
+    margin-left: 250px ;
+    gap: 139px;
+    color: white;
+   
+ }
+
+ .pros .pro h3{
+    font-size: 18px;
+    font-weight: 900;
+    
+ }
+
+ .pros .pro p{
+    font-size: 16px;
+    font-style: italic;
+   
+    
+ }
+ 
+ button{
+color: white;
+background-color: #C271FF;
+width: 162px;
+height: 44px;
+border-radius: 22px;
+border: none;
+box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+margin-top: 50px;
+text-align: center;
+font-weight: 600;
+ }
+
+ .testimonials{
+    background-color: #C271FF;
+    height: 392px;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 22px;
+   
+ }
+
+ 
+ 
+ .testimonials img {
+padding-left: 130%;
+   
+ }
+
+ .text{
+    height: 158px;
+    width: 730px;
+    align-items: center;
+    
+ }
+
+ .text h3 {
+    font-size: 22px;
+    font-weight: 700;
+ }
+
+ .text p{
+    font-size: 22px;
+    font-style:italic ;
+ }
+
+ blockquote{
+     margin-inline-start: 0;
+     padding-bottom: 22px;
+     margin-block-start: 0;
+     font-size: 22px;
+     font-weight: 400;
+ }
+
+
+ .tutor{
+  
+    align-items: center;
+    justify-content: center;
+
+ }
+.tuto img{
+    width: 255px;
+    height: 154px;
+}
+
+.tutorials{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    width: 1228px;
+    height: 450px;
+    margin-top: 75px;
+    color: #071629; 
+    margin-left: 8%;
+
+}
+
+.tuto .play{
+    width: 64px;
+    height:64px;
+    position: absolute;
+    top: 60px;
+    left: 95px;
+    
+   
+}
+
+.video {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .person {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+ 
+.tutor h3{
+    font-size: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 13px;
+    font-weight: 700;
+}
+
+.tutor p{
+    font-size: 14px;
+    width: 242px;
+    height: 48px;
+    padding-left: 13px;
+    font-weight: 400;
+    opacity: 50.16%;
+}
+
+.title{
+  
+    font-size: 32px;
+    font-weight:300;
+   color: #071629;
+   text-align: center;
+   padding-top: 87px;
+  
+   
+}
+
+.avatar {
+    display: flex;
+    padding-top: 13px;
+    padding-left: 13px;
+
+
+}
+.avatar h4{
+
+    color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 13px;
+    padding-top: 8px;
+}
+
+.avatar img{
+    width: 30px;
+    height: 30px;
+   
+}
+
+
+.rating img{
+width: 107px;
+height:  15px;
+padding-left: 13px;
+padding-top: 8px;
+}
+
+
+
+.time{
+    color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 75%;
+   margin-top: -25px;
+}
+
+.free_membership{
+    background-color: #071629;
+    color: white;
+    height: 502px;
+    font-size: 32px;
+    
+    
+   
+}
+
+
+.title2{
+  
+    font-size: 32px;
+    font-weight: 300;
+   color: white;
+   text-align: center;
+   padding-top: 87px;
+   
+}
+
+.title2 b{
+    font-weight: 700;
+}
+
+.members{
+    display: flex;
+    padding-top: 58px;
+    justify-content: center;
+    align-items: center;
+
+}
+.members .member{
+   
+   width: 257px;
+   height: 153px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+.member h3{
+font-size: 18px;
+font-weight: 600;
+padding-top: 27px;
+padding-bottom: 13px;
+text-align: center;
+
+
+}
+
+.member p{
+    font-size: 14px;
+    width: 221px;
+    text-align: center;
+    font-weight: 400;
+}
+.free_membership button{
+    color: white;
+    background-color: #C271FF;
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 0;
+   position: relative;
+    top: 85px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+}
+
+.questions{
+    
+    height: 858px;
+    color: #071629;
+}
+
+.questions .faq{
+    color: #071629;
+    font-size: 60px;
+    font-weight: 300;
+    padding-top: 67px;
+    padding-bottom: 74px;
+}
+
+
+.question{
+    display: flex;
+    gap:74px 220px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.question h3{
+   font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.question p{
+    width:350px ;
+    font-size: 14px;
+    height: 192px;
+    font-weight: 400;
+   opacity: 50.16%;
+}
+
+
+footer{
+    clear: both;
+    background-color:#071629 ;
+    color: white;
+    height: 249px;
+    position: sticky;
+    margin-top: 150%;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4%;
+    opacity: 35.17%;
+    font-weight: 400;
+
+}
+
+.footer_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+    gap:736px;
+   
+}
+
+.footer_content i{
+padding:20px;
+
+}
+
