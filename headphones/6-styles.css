@@ -1,0 +1,466 @@
+/*import fonts*/
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Regular.otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Italic.otf');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Black.otf');
+    font-weight: 900;
+    
+}
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Semibold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('SourceSansPro-Bold.otf');
+    font-weight: 700;
+}
+
+/*header section*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+ 
+  
+  * {
+    margin: 0;
+    font-family: 'SourceSansPro';
+    padding: 0;
+   
+  }
+
+ 
+ .logo img{
+    height: 32px;
+    width: 161px;
+}
+
+
+nav{
+   
+    height: 32px;
+    text-align: center;
+    width: 1000px;
+    color: white;
+    text-decoration: none;
+    gap:584px;
+    margin:auto;
+    padding-top: 28px;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  ul li{
+    
+    display: inline-block;
+    width: auto;
+    padding: 5px  5px ;
+     
+    
+  }
+  ul li a{
+ 
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    
+   
+  }
+
+
+  a:hover, a:active {
+    color: #FF6565;
+   
+  }
+
+  header{
+    background: url("images/headphones_hero_1.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 800px;
+   background-position: center;
+   border: 1px solid #979797;
+
+  }
+
+  .content{
+    padding-top: 372px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.content h1{
+font-size: 32px;
+font-weight: 700;
+}
+
+.content h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#button1{
+    width:162px ;
+    height: 44px;
+    color: white;
+    background-color: #FF6565;
+    border: none;
+    border-radius: 22px;
+    margin-top: 40px;
+    margin-bottom: 65px;
+    font-size: 14px;
+    font-weight: 700;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+#button1:active{
+    opacity: 0.9;
+}
+
+#button1:hover{
+    opacity: 0.9;
+}
+
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 637px;
+    height: 104px;
+    text-align: center;
+}
+
+/*what we do section*/
+
+.what_we_do{
+    padding-top:110px;
+    height:694 px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.what_we_do h2{
+font-size: 32px;
+font-weight: 400;
+color: #071629;
+
+}
+
+.what_we_do p{
+    padding: 39px;
+    width: 637px;
+    height: 104px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #071629;
+
+}
+
+.icons{
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    padding:97px;
+    gap: 58px;
+}
+
+.icons .image1{
+   margin-left: 50px;
+   width: 94px;
+   height: 65px;
+}
+
+.icons .image2{
+    margin-left: 50px;
+    width: 65px;
+    height: 75px;
+ }
+ 
+ .icons .image3{
+    margin-left: 50px;
+    width: 51px;
+    height: 57px;
+ }
+ 
+ .icons .image4{
+    margin-left: 50px;
+    width: 61px;
+    height: 61px;
+ }
+ 
+
+.icons h3{
+    color: #071629;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 24px;
+
+}
+
+.icons h4{
+    font-size: 14px;
+    font-weight: 400;
+    color: #071629;
+    width: 207px;
+    height: 52px;
+    text-align: center;
+    padding-top: 13px;
+}
+
+/*our results section*/
+.Our_results{
+    height: 650px;
+    background: url("images/headphones_hero_2.jpg");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:110px;
+  
+}
+.Our_results h4{
+    font-size: 16px;
+    font-weight: 400;
+    width: 637px;
+    height: 104px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.Our_results h2{
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+.dots{
+    display: flex;
+   justify-content: center ;
+    align-items: center;
+    gap:76px;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.dots .dot span{
+    font-size: 46px;
+    font-weight: 700;
+
+}
+
+.dot_info {
+    position: relative;
+  bottom:120px;
+  }
+
+  .dot img{
+    width: 190px;
+    height: 190px;
+    display: flex;
+  
+   
+}
+
+.dot::before {
+    width: 190px;
+    height: 0px;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+   border-top: 190px solid #FF6565;;
+   border-left: 95px solid transparent;
+   border-right: 95px solid transparent;
+   border-bottom: 190px solid transparent;
+   position: relative;
+   
+
+   
+}
+
+.dot p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:480px) {
+/*mobile responsive*/
+/*header*/
+    header{
+        background: url("images/headphones_hero_1.jpg");
+        background-size:cover;
+        width: 375px;
+        height: 869px;
+       background-position-x: 35%;
+       border: 1px solid #979797;
+    
+      }
+   
+    nav{
+   
+    height: 32px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    gap:66px;
+    margin:auto;
+    padding-top: 28px;
+    display: flex;
+}
+
+.content{
+    padding-top: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    
+}
+
+.content h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    }
+    
+    .content h2{
+        font-size: 16px;
+        font-weight: 700;
+        width: 279px;
+    }
+
+    .content p{
+        font-size: 16px;
+        font-weight: 400;
+        width: 335px;
+        height: 182px;
+        text-align: center;
+        padding-top: 65px;
+    }
+
+    /*what we do*/
+
+    .what_we_do{
+           
+        width: 375px;
+    }
+
+    .what_we_do h2{
+        font-size: 32px;
+        font-weight: 400;
+        color: #071629;
+       
+        
+        }
+        
+        .what_we_do p{
+    
+            width: 325px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #071629;
+           padding-top: 40px;
+            height: 208px;
+        
+        }
+        
+        .icons{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            padding:97px;
+            gap: 63px;
+        }
+        
+        /*our results section*/
+        .Our_results{
+            height: 1419px;
+            width: 375px;
+            background: url("images/headphones_hero_2.jpg");
+            background-size:cover;
+            background-position: center;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top:110px;
+          
+        }
+        .Our_results h4{
+            font-size: 16px;
+            font-weight: 400;
+            width: 305px;
+            height: 208px;
+            text-align: center;
+            padding-top: 44px;
+        }
+        
+        .Our_results h2{
+            font-size: 32px;
+            font-weight: 600;
+            height: 82px;
+            width: 266px;
+            text-align: center;
+            
+        }
+        
+        .dots{
+            display: flex;
+            flex-direction: column;
+           justify-content: center ;
+            align-items: center;
+           margin-top: 42px;
+            text-align: center;
+            gap:44px
+           
+        }
+        .dot img{
+            width: 190px;
+            height: 190px;
+           margin-bottom: -90px;
+          
+           
+        }
+        .dot_info {
+            position: relative;
+          bottom:50px;
+          }
+
+
+}
